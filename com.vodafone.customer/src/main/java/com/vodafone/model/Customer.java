@@ -17,7 +17,6 @@ public class Customer {
     private String userName;
     @Column(name = "email" , unique = true)
     private String email;
-
     private String password;
     @Column(name = "phone" , unique = true)
     private String phone;
